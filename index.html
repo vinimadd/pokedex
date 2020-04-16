@@ -1,178 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Pokedex</title>
-  </head>
-  <body>
-    
-      <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="display-4">Pokedex</h2>
-            <p class="lead">Search for a pokemon based on its habitat</p>
-          </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Indie+Flower&family=Pacifico&family=Righteous&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Pokedex</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container jumbo">
+      <div class="col title">
+        <h2>Pokedex</h2>
+        <div class="col">
+          <h4>Catch 'em all!</h4>
         </div>
-
-    <div id="accordion">
-
-        <div class="card">
-          <div class="card-header" id="heading1">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                Habitat: Cave
-              </button>
-            </h5>
-          </div>
-      
-          <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion">
-            <div class="card-body" id="cave">
-                <!-- data -->
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="heading2">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                  Habitat: Forest
-              </button>
-            </h5>
-          </div>
-      
-          <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
-            <div class="card-body" id="forest">
-                <!-- data -->
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-            <div class="card-header" id="heading3">
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                    Habitat: Grassland
-                </button>
-              </h5>
-            </div>
-        
-            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
-              <div class="card-body" id="grass">
-                  <!-- data -->
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-              <div class="card-header" id="heading4">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                      Habitat: Mountain
-                    </button>
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
-                <div class="card-body" id="mountain">
-                    <!-- data -->
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header" id="heading5">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                        Habitat: Rare
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
-                  <div class="card-body" id="rare">
-                      <!-- data -->
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                  <div class="card-header" id="heading6">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                          Habitat: Rough-terrain
-                      </button>
-                    </h5>
-                  </div>
-              
-                  <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
-                    <div class="card-body" id="rough">
-                        <!-- data -->
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading7">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                            Habitat: Sea
-                        </button>
-                      </h5>
-                    </div>
-                
-                    <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
-                      <div class="card-body" id="sea">
-                          <!-- data -->
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card">
-                      <div class="card-header" id="heading8">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                              Habitat: Urban
-                          </button>
-                        </h5>
-                      </div>
-                  
-                      <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion">
-                        <div class="card-body" id="urban">
-                            <!-- data -->
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header" id="heading9">
-                          <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                                Habitat: Waters-edge
-                            </button>
-                          </h5>
-                        </div>
-                    
-                        <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion">
-                          <div class="card-body" id="water">
-                              <!-- data -->
-                          </div>
-                        </div>
-                      </div>
       </div>
+    </div>
+  </div>
 
-    <!-- Optional JavaScript -->
-    <script src="app.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  <div class="container container-fluid">
+    <div id="main"></div>
+    <div class="container btn">
+      <button type="button" class="btn btn-outline-warning" id="previous">Previous</button>
+      <button type="button" class="btn btn-outline-warning" id="next">Next</button>
+    </div>
+
+    <!-- initially I wanted group pokemons in groups by habitat - had some problems to append new container with cards in dynamic manner -->
+    <!-- <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Cave
+            </button>
+
+          <div class="collapse" id="collapse1">
+            <div class="card card-body" id="cave">
+              content
+            </div>
+          </div>
+         -->
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="app.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
